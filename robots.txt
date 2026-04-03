@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /privacy
+Disallow: /terms
+Disallow: /confidentiality
+Sitemap: https://medmerge.co/sitemap.xml
