@@ -15,6 +15,18 @@
   --border-heavy:   #1A1A1A;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* GLOBAL RESET */
 *, *::before, *::after {
   margin: 0;
@@ -611,6 +623,36 @@ p.lead {
 .card p {
   color: var(--text-secondary);
   font-size: 0.9rem;
+}
+
+.tier-list {
+  margin-top: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.tier-list li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.tier-list li:last-child {
+  border-bottom: none;
+}
+
+.tier-list li.tier-includes {
+  color: var(--teal);
+  font-weight: 500;
+}
+
+.tier-cta {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal);
 }
 
 /* ============================================
