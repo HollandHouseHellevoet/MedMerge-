@@ -962,17 +962,20 @@ p.lead {
 
 .team-member .team-linkedin {
   display: inline-block;
-  margin-top: 10px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  color: var(--teal);
+  margin-top: 16px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-light);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .team-member .team-linkedin:hover {
-  color: var(--teal-dark);
+  color: var(--teal);
 }
 
 /* BELIEFS */
