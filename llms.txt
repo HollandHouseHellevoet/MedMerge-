@@ -1,0 +1,48 @@
+# MedMerge
+
+> Single employer platform providing healthcare benefits, payroll, and HR for medical practices under 150 employees.
+
+MedMerge is an employer-of-record platform designed exclusively for medical practices. We become the employer of record and lease employees back to the practice. The practice retains full operational control. This structure allows even a one-employee practice to access self-funded healthcare benefits through the SurgRE captive insurance entity and the Friends & Family provider network.
+
+## What MedMerge Does
+
+- **Single Employer Platform**: MedMerge becomes employer of record. Employees are leased back to the practice. The practice keeps operational control. This unlocks self-funded benefits for practices of any size, starting at one employee.
+- **Self-Funded Healthcare Benefits**: Through the SurgRE captive — a homogeneous captive insurance entity designed exclusively for healthcare professionals — member practices get collective purchasing power, claims data transparency, and independence from traditional fully-insured carriers (Blue Cross, United, Cigna, Aetna).
+- **Friends & Family Network**: When plan members receive care from another member practice, there are no copays, no deductibles, and no coinsurance. Every service rendered inside the network generates intrinsic savings for all members. The network effect compounds as more practices join.
+- **Payroll**: Tax filing, direct deposit, W-2/W-4, ACA compliance, garnishments, 401(k) tracking, workers' compensation, multi-state support, and general ledger mapping.
+- **Human Resources**: Applicant tracking, onboarding, benefits management, employee self-service, talent management, performance reviews, compliance (EEOC, OSHA, FMLA), and document management.
+- **Time & Labor**: Time tracking, scheduling, PTO management, overtime calculations, and labor cost reporting.
+
+## Who It's For
+
+Medical practices under 150 employees that are currently fully insured. The platform is designed for independent practices, physician-owned groups, ambulatory surgery centers, and specialty clinics that want to self-fund their healthcare benefits without giving up operational control.
+
+## Service Tiers
+
+- **Tier 1 — Payroll & Compliance**: Payroll processing, tax filing, direct deposit, W-2s, ACA compliance, core time tracking.
+- **Tier 2 — Payroll + HR Foundation**: Everything in Tier 1 plus applicant tracking, onboarding, benefits management, HR compliance.
+- **Tier 3 — Full Platform**: Everything in Tier 2 plus self-funded healthcare benefits through the SurgRE captive, Friends & Family network access, talent management, dedicated support.
+
+## Key Differentiators
+
+- Not a PEO. Practices keep full operational control.
+- Self-funded benefits accessible to practices starting at one employee.
+- Claims data transparency — practices see their own data.
+- Friends & Family network eliminates cost sharing between member practices.
+- Healthcare-only captive (SurgRE) with homogeneous risk pool.
+- Benefits, payroll, and HR on one integrated platform.
+
+## Pages
+
+- [Homepage](https://medmerge.co/): Overview of the platform, the problem it solves, and core capabilities.
+- [How It Works](https://medmerge.co/how-it-works): Single employer structure explained, SurgRE captive, Friends & Family network, comparison to PEO model.
+- [Benefits](https://medmerge.co/benefits): Self-funded healthcare benefits, Rx savings, domestic network, risk mitigation.
+- [Payroll & HR](https://medmerge.co/payroll-hr): Payroll features, HR features, time and labor management.
+- [Pricing](https://medmerge.co/pricing): Three-tier service comparison, demo request form.
+- [About](https://medmerge.co/about): Origin story, team.
+
+## Contact
+
+- Email: Info@MedMerge.co
+- LinkedIn: https://www.linkedin.com/company/100967865
+- X: https://x.com/dutchrojas
