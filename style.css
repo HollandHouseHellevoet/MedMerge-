@@ -406,6 +406,7 @@ p.lead {
 
 .hero--interior {
   min-height: 60vh;
+  padding-top: 80px;
 }
 
 .hero--interior h1 {
@@ -1375,6 +1376,7 @@ footer {
 
   .hero--interior {
     min-height: 50vh;
+    padding-top: 72px;
   }
 
   h1 {
