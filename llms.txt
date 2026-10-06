@@ -1,13 +1,13 @@
 # MedMerge
 
-> Single employer platform providing healthcare benefits, payroll, and HR for medical practices under 150 employees.
+> Single employer platform providing healthcare benefits, payroll, and HR for medical practices of any size.
 
 MedMerge is an employer-of-record platform designed exclusively for medical practices. We become the employer of record and lease employees back to the practice. The practice retains full operational control. This structure allows even a one-employee practice to access self-funded healthcare benefits through SurgRE and the Friends & Family provider network. SurgRE is owned by MedMerge and structured as a captive insurance entity.
 
 ## What MedMerge Does
 
 - **Single Employer Platform**: MedMerge becomes employer of record. Employees are leased back to the practice. The practice keeps operational control. This unlocks self-funded benefits for practices of any size, starting at one employee.
-- **Self-Funded Healthcare Benefits**: Through SurgRE — a self-funded benefits program designed exclusively for healthcare professionals — member practices get lower premiums, claims data transparency, Friends & Family network access, domestic network access, direct contracts, and independence from traditional fully-insured carriers (Blue Cross, United, Cigna, Aetna).
+- **Self-Funded Healthcare Benefits**: Through SurgRE — a self-funded benefits program designed exclusively for healthcare professionals — member practices get lower premiums, claims data transparency, Friends & Family network access, domestic network access, direct contracts, and independence from traditional fully-insured carriers. Medical, dental, vision, life, and disability coverage are all included.
 - **Friends & Family Network**: When plan members receive care from another member practice, they pay the practice's actual cost of delivery — not the retail rate. A $350 consult that costs $150 to deliver is billed to the plan at $150. No copays, no deductibles, no coinsurance. These are not negotiated discounts; they are structural cost reductions. Every service rendered inside the network lowers overall plan expenses for all members. The network is live in Phoenix, Dallas, Manhattan (KS), and Tulsa.
 - **Payroll**: Tax filing, direct deposit, W-2/W-4, ACA compliance, garnishments, 401(k) tracking, workers' compensation, multi-state support, and general ledger mapping.
 - **Human Resources**: Applicant tracking, onboarding, benefits management, employee self-service, talent management, performance reviews, compliance (EEOC, OSHA, FMLA), and document management.
@@ -15,7 +15,7 @@ MedMerge is an employer-of-record platform designed exclusively for medical prac
 
 ## Who It's For
 
-Medical practices under 150 employees that are currently fully insured. The platform is designed for independent practices, physician-owned groups, ambulatory surgery centers, and specialty clinics that want to self-fund their healthcare benefits without giving up operational control.
+Medical practices that are currently fully insured. The platform is designed for independent practices, physician-owned groups, ambulatory surgery centers, and specialty clinics under 150 employees, though we work with larger groups as well. Any practice from one employee up can join. No minimum.
 
 ## Service Tiers
 
