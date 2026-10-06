@@ -19,9 +19,11 @@ Medical practices under 150 employees that are currently fully insured. The plat
 
 ## Service Tiers
 
+All three tiers include the single employer structure, self-funded healthcare benefits through SurgRE, and access to the Friends & Family network. Tiers differ by the level of payroll, HR, and talent management services.
+
 - **Tier 1 — Payroll & Compliance**: Payroll processing, tax filing, direct deposit, W-2s, ACA compliance, core time tracking.
 - **Tier 2 — Payroll + HR Foundation**: Everything in Tier 1 plus applicant tracking, onboarding, benefits management, HR compliance.
-- **Tier 3 — Full Platform**: Everything in Tier 2 plus self-funded healthcare benefits through SurgRE, Friends & Family network access, talent management, dedicated support.
+- **Tier 3 — Full Platform**: Everything in Tier 2 plus talent management, compensation management, and custom integrations.
 
 ## Key Differentiators
 
@@ -51,6 +53,7 @@ The platform serves practices nationwide; the network economics are strongest wh
 - [Payroll & HR](https://medmerge.co/payroll-hr): Payroll features, HR features, time and labor management.
 - [Pricing](https://medmerge.co/pricing): Three-tier service comparison, demo request form.
 - [About](https://medmerge.co/about): Origin story, team.
+- [FAQ](https://medmerge.co/faq): Common questions about the structure, benefits, pricing, and implementation.
 
 ## Contact
 

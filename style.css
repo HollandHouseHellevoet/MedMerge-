@@ -1274,6 +1274,35 @@ footer {
 }
 
 /* ============================================
+   FAQ
+   ============================================ */
+.faq-item {
+  padding: 32px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.faq-item:first-of-type {
+  padding-top: 0;
+}
+
+.faq-item:last-of-type {
+  border-bottom: none;
+}
+
+.faq-item h3 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+  color: var(--text-heading);
+}
+
+.faq-item p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  max-width: 640px;
+}
+
+/* ============================================
    CLOSING SECTION
    ============================================ */
 .closing-section {
