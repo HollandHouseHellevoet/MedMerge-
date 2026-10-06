@@ -1318,7 +1318,7 @@ footer {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(15, 118, 110, 0.75);
+  background: rgba(15, 118, 110, 0.80);
   mix-blend-mode: multiply;
 }
 
@@ -1326,7 +1326,7 @@ footer {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(17, 17, 17, 0.35);
+  background: rgba(17, 17, 17, 0.50);
 }
 
 .section-image > * {
@@ -1361,12 +1361,12 @@ footer {
 }
 
 .section-image--warm::before {
-  background: rgba(15, 118, 110, 0.55);
+  background: rgba(15, 118, 110, 0.70);
   mix-blend-mode: multiply;
 }
 
 .section-image--warm::after {
-  background: rgba(17, 17, 17, 0.2);
+  background: rgba(17, 17, 17, 0.40);
 }
 
 /* ============================================
