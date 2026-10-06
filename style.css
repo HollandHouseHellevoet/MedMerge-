@@ -708,8 +708,37 @@ p.lead {
   line-height: 1.15;
 }
 
+.tier-table-price {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #111111;
+  margin-top: 0.5rem;
+  line-height: 1;
+}
+
+.tier-table-price span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  letter-spacing: 0;
+}
+
+.tier-table-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
 .tier-table-head--highlight {
   background: var(--bg-light);
+}
+
+.tier-table-head--highlight .tier-table-desc {
+  color: var(--teal);
+  font-weight: 500;
+  font-style: normal;
 }
 
 .tier-table-feature {
@@ -1256,7 +1285,7 @@ footer {
 
 .footer-desc {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
   line-height: 1.65;
   max-width: 260px;
 }
@@ -1284,7 +1313,7 @@ footer {
 }
 
 .footer-social a {
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.65);
   transition: color 0.2s;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
@@ -1305,6 +1334,7 @@ footer {
   font-size: 0.6rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
   color: rgba(255,255,255,0.35);
   margin-bottom: 16px;
 }
@@ -1315,7 +1345,7 @@ footer {
 
 .footer-nav-col ul li a {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.75);
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -1342,7 +1372,7 @@ footer {
 }
 
 .footer-newsletter .form-input::placeholder {
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.5);
 }
 
 .footer-newsletter .btn-primary {
@@ -1361,7 +1391,7 @@ footer {
 
 .footer-copy {
   font-size: 0.72rem;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.5);
   letter-spacing: 0.06em;
 }
 
@@ -1372,7 +1402,7 @@ footer {
 
 .footer-legal a {
   font-size: 0.72rem;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.5);
   text-decoration: none;
   transition: color 0.2s;
 }
