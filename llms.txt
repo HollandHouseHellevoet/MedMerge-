@@ -2,11 +2,11 @@
 
 > Single employer platform providing healthcare benefits, payroll, and HR for medical practices of any size.
 
-MedMerge is an employer-of-record platform designed exclusively for medical practices. We become the employer of record and lease employees back to the practice. The practice retains full operational control. This structure allows even a one-employee practice to access self-funded healthcare benefits through SurgRE and the Friends & Family provider network. SurgRE is owned by MedMerge and structured as a captive insurance entity.
+MedMerge is a single employer platform designed exclusively for medical practices. The practice retains full operational control. This structure allows even a one-employee practice to access self-funded healthcare benefits through SurgRE and the Friends & Family provider network. SurgRE is owned by MedMerge and structured as a captive insurance entity.
 
 ## What MedMerge Does
 
-- **Single Employer Platform**: MedMerge becomes employer of record. Employees are leased back to the practice. The practice keeps operational control. This unlocks self-funded benefits for practices of any size, starting at one employee.
+- **Single Employer Platform**: Practices join the MedMerge employing entity and keep full operational control. This unlocks self-funded benefits for practices of any size, starting at one employee.
 - **Self-Funded Healthcare Benefits**: Through SurgRE — a self-funded benefits program designed exclusively for healthcare professionals — member practices get lower premiums, claims data transparency, Friends & Family network access, domestic network access, direct contracts, and independence from traditional fully-insured carriers. Medical, dental, vision, life, and disability coverage are all included.
 - **Friends & Family Network**: When plan members receive care from another member practice, they pay the practice's actual cost of delivery — not the retail rate. A $350 consult that costs $150 to deliver is billed to the plan at $150. No copays, no deductibles, no coinsurance. These are not negotiated discounts; they are structural cost reductions. Every service rendered inside the network lowers overall plan expenses for all members. The network is live in Phoenix, Dallas, Manhattan (KS), and Tulsa.
 - **Payroll**: Tax filing, direct deposit, W-2/W-4, ACA compliance, garnishments, 401(k) tracking, workers' compensation, multi-state support, and general ledger mapping.
@@ -21,9 +21,9 @@ Medical practices that are currently fully insured. The platform is designed for
 
 All three tiers include the single employer structure, self-funded healthcare benefits through SurgRE, and access to the Friends & Family network. Tiers differ by the level of payroll, HR, and talent management services.
 
-- **Tier 1 — Payroll & Compliance**: Payroll processing, tax filing, direct deposit, W-2s, ACA compliance, core time tracking.
-- **Tier 2 — Payroll + HR Foundation**: Everything in Tier 1 plus applicant tracking, onboarding, benefits management, HR compliance.
-- **Tier 3 — Full Platform**: Everything in Tier 2 plus talent management, compensation management, and custom integrations.
+- **Tier 1 — Platform ($40/mo per employee)**: Full platform with payroll, time, HR, and reporting. Your team runs it, we provide setup, training, and support.
+- **Tier 2 — Platform + Payroll ($60/mo per employee)**: Everything in Tier 1 plus a dedicated payroll specialist who runs payroll on your behalf. You approve, we handle the rest.
+- **Tier 3 — Full Service ($80/mo per employee)**: Everything in Tier 2 plus a dedicated HR team. We lead the people process end-to-end.
 
 ## Key Differentiators
 
@@ -59,4 +59,3 @@ The platform serves practices nationwide; the network economics are strongest wh
 
 - Email: Info@MedMerge.co
 - LinkedIn: https://www.linkedin.com/company/100967865
-- X: https://x.com/dutchrojas
