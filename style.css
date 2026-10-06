@@ -676,6 +676,95 @@ p.lead {
 }
 
 /* ============================================
+   COMPARISON TABLE
+   ============================================ */
+.tier-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tier-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.tier-table-head {
+  text-align: center;
+  padding: 1.5rem 1rem 1rem;
+  vertical-align: bottom;
+  border-bottom: 2px solid var(--border-light);
+}
+
+.tier-table-head .eyebrow {
+  margin-bottom: 0.25rem;
+}
+
+.tier-table-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: #111111;
+  line-height: 1.15;
+}
+
+.tier-table-head--highlight {
+  background: var(--bg-light);
+}
+
+.tier-table-feature {
+  width: 40%;
+}
+
+.tier-table-group td {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--teal);
+  padding: 1.5rem 0 0.5rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.tier-table tbody tr:not(.tier-table-group) td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.tier-table tbody tr:not(.tier-table-group) td:first-child {
+  padding-left: 0;
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+.tier-table tbody tr:not(.tier-table-group) td:not(:first-child) {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--teal);
+}
+
+.tier-table tbody tr:not(.tier-table-group) td:nth-child(3) {
+  background: var(--bg-light);
+}
+
+.tier-table tfoot td {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-top: 2px solid var(--border-light);
+}
+
+.tier-table tfoot td:first-child {
+  border-top: none;
+}
+
+.tier-table tfoot td:nth-child(3) {
+  background: var(--bg-light);
+}
+
+/* ============================================
    TIER ROWS
    ============================================ */
 .tier-row {
