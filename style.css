@@ -1303,6 +1303,73 @@ footer {
 }
 
 /* ============================================
+   IMAGE SECTIONS (teal overlay on background photo)
+   ============================================ */
+.section-image {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  padding: 100px 0;
+}
+
+.section-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 118, 110, 0.75);
+  mix-blend-mode: multiply;
+}
+
+.section-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 17, 17, 0.35);
+}
+
+.section-image > * {
+  position: relative;
+  z-index: 2;
+}
+
+.section-image h2 {
+  color: #FFFFFF;
+}
+
+.section-image h2 em {
+  color: rgba(255,255,255,0.7);
+}
+
+.section-image .eyebrow {
+  color: rgba(255,255,255,0.6);
+}
+
+.section-image p,
+.section-image .lead {
+  color: rgba(255,255,255,0.8);
+}
+
+.section-image--dark::before {
+  background: rgba(17, 17, 17, 0.7);
+  mix-blend-mode: normal;
+}
+
+.section-image--dark::after {
+  display: none;
+}
+
+.section-image--warm::before {
+  background: rgba(15, 118, 110, 0.55);
+  mix-blend-mode: multiply;
+}
+
+.section-image--warm::after {
+  background: rgba(17, 17, 17, 0.2);
+}
+
+/* ============================================
    CLOSING SECTION
    ============================================ */
 .closing-section {
