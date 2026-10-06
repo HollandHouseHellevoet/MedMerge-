@@ -942,6 +942,19 @@ p.lead {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.team-member img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-bottom: 16px;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.team-member:hover img {
+  filter: grayscale(0%);
+}
+
 .team-member h3 {
   font-size: 1.25rem;
   margin-bottom: 4px;
