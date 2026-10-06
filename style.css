@@ -15,6 +15,18 @@
   --border-heavy:   #1A1A1A;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* GLOBAL RESET */
 *, *::before, *::after {
   margin: 0;
@@ -270,7 +282,7 @@ img { max-width: 100%; display: block; }
 h1 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
-  font-size: clamp(3rem, 7vw, 6.5rem);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
   line-height: 0.95;
   letter-spacing: -0.01em;
   color: #FFFFFF;
@@ -378,7 +390,7 @@ p.lead {
 
 .hero h1 {
   margin-bottom: 2rem;
-  max-width: 14ch;
+  max-width: 22ch;
 }
 
 .hero .lead {
@@ -394,10 +406,30 @@ p.lead {
 
 .hero--interior {
   min-height: 60vh;
+  padding-top: 80px;
 }
 
 .hero--interior h1 {
-  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+.hero--image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero--image::before {
+  background: rgba(15, 118, 110, 0.85);
+  mix-blend-mode: multiply;
+}
+
+.hero--image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(17, 17, 17, 0.55), rgba(17, 17, 17, 0.75));
+  pointer-events: none;
 }
 
 .hero-sub {
@@ -611,6 +643,147 @@ p.lead {
 .card p {
   color: var(--text-secondary);
   font-size: 0.9rem;
+}
+
+.tier-list {
+  margin-top: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.tier-list li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.tier-list li:last-child {
+  border-bottom: none;
+}
+
+.tier-list li.tier-includes {
+  color: var(--teal);
+  font-weight: 500;
+}
+
+.tier-cta {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+/* ============================================
+   COMPARISON TABLE
+   ============================================ */
+.tier-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tier-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.tier-table-head {
+  text-align: center;
+  padding: 1.5rem 1rem 1rem;
+  vertical-align: bottom;
+  border-bottom: 2px solid var(--border-light);
+}
+
+.tier-table-head .eyebrow {
+  margin-bottom: 0.25rem;
+}
+
+.tier-table-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: #111111;
+  line-height: 1.15;
+}
+
+.tier-table-price {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #111111;
+  margin-top: 0.5rem;
+  line-height: 1;
+}
+
+.tier-table-price span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  letter-spacing: 0;
+}
+
+.tier-table-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.tier-table-head--highlight {
+  background: var(--bg-light);
+}
+
+.tier-table-head--highlight .tier-table-desc {
+  color: var(--teal);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tier-table-feature {
+  width: 40%;
+}
+
+.tier-table-group td {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--teal);
+  padding: 1.5rem 0 0.5rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.tier-table tbody tr:not(.tier-table-group) td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.tier-table tbody tr:not(.tier-table-group) td:first-child {
+  padding-left: 0;
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+.tier-table tbody tr:not(.tier-table-group) td:not(:first-child) {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--teal);
+}
+
+.tier-table tbody tr:not(.tier-table-group) td:nth-child(3) {
+  background: var(--bg-light);
+}
+
+.tier-table tfoot td {
+  text-align: center;
+  padding: 2.5rem 1rem 1rem;
+  border-top: 2px solid var(--border-light);
+  background: none;
 }
 
 /* ============================================
@@ -896,7 +1069,23 @@ p.lead {
 }
 
 .team-grid-4 {
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 2rem;
+}
+
+.team-member img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-bottom: 16px;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.team-member:hover img {
+  filter: grayscale(0%);
 }
 
 .team-member h3 {
@@ -916,6 +1105,22 @@ p.lead {
   font-size: 0.9rem;
   color: var(--text-secondary);
   line-height: 1.7;
+}
+
+.team-member .team-linkedin {
+  display: inline-block;
+  margin-top: 6px;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--teal);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.team-member .team-linkedin:hover {
+  color: var(--teal-dark);
+  text-decoration: underline;
 }
 
 /* BELIEFS */
@@ -1073,7 +1278,7 @@ footer {
 
 .footer-desc {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
   line-height: 1.65;
   max-width: 260px;
 }
@@ -1101,7 +1306,7 @@ footer {
 }
 
 .footer-social a {
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.65);
   transition: color 0.2s;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
@@ -1122,6 +1327,7 @@ footer {
   font-size: 0.6rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
   color: rgba(255,255,255,0.35);
   margin-bottom: 16px;
 }
@@ -1132,7 +1338,7 @@ footer {
 
 .footer-nav-col ul li a {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.75);
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -1159,7 +1365,7 @@ footer {
 }
 
 .footer-newsletter .form-input::placeholder {
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.5);
 }
 
 .footer-newsletter .btn-primary {
@@ -1178,7 +1384,7 @@ footer {
 
 .footer-copy {
   font-size: 0.72rem;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.5);
   letter-spacing: 0.06em;
 }
 
@@ -1189,13 +1395,109 @@ footer {
 
 .footer-legal a {
   font-size: 0.72rem;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.5);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .footer-legal a:hover {
   color: rgba(255,255,255,0.7);
+}
+
+/* ============================================
+   FAQ
+   ============================================ */
+.faq-item {
+  padding: 32px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.faq-item:first-of-type {
+  padding-top: 0;
+}
+
+.faq-item:last-of-type {
+  border-bottom: none;
+}
+
+.faq-item h3 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+  color: var(--text-heading);
+}
+
+.faq-item p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  max-width: 640px;
+}
+
+/* ============================================
+   IMAGE SECTIONS (teal overlay on background photo)
+   ============================================ */
+.section-image {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  padding: 100px 0;
+}
+
+.section-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 118, 110, 0.85);
+  mix-blend-mode: multiply;
+}
+
+.section-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 17, 17, 0.60);
+}
+
+.section-image > * {
+  position: relative;
+  z-index: 2;
+}
+
+.section-image h2 {
+  color: #FFFFFF;
+}
+
+.section-image h2 em {
+  color: rgba(255,255,255,0.7);
+}
+
+.section-image .eyebrow {
+  color: rgba(255,255,255,0.6);
+}
+
+.section-image p,
+.section-image .lead {
+  color: rgba(255,255,255,0.8);
+}
+
+.section-image--dark::before {
+  background: rgba(17, 17, 17, 0.7);
+  mix-blend-mode: normal;
+}
+
+.section-image--dark::after {
+  display: none;
+}
+
+.section-image--warm::before {
+  background: rgba(15, 118, 110, 0.80);
+  mix-blend-mode: multiply;
+}
+
+.section-image--warm::after {
+  background: rgba(17, 17, 17, 0.55);
 }
 
 /* ============================================
@@ -1317,10 +1619,11 @@ footer {
 
   .hero--interior {
     min-height: 50vh;
+    padding-top: 72px;
   }
 
   h1 {
-    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-size: clamp(2rem, 6vw, 3rem);
   }
 
   section, .section-white, .section-light, .section-dark {
@@ -1401,8 +1704,8 @@ footer {
 
   .team-grid,
   .team-grid-4 {
-    grid-template-columns: 1fr;
-    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
   }
 
   p.lead {
