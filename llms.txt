@@ -2,12 +2,12 @@
 
 > Single employer platform providing healthcare benefits, payroll, and HR for medical practices under 150 employees.
 
-MedMerge is an employer-of-record platform designed exclusively for medical practices. We become the employer of record and lease employees back to the practice. The practice retains full operational control. This structure allows even a one-employee practice to access self-funded healthcare benefits through SurgRE and the Friends & Family provider network. SurgRE is technically a captive insurance entity, meaning it is owned by its policyholders rather than a commercial carrier.
+MedMerge is an employer-of-record platform designed exclusively for medical practices. We become the employer of record and lease employees back to the practice. The practice retains full operational control. This structure allows even a one-employee practice to access self-funded healthcare benefits through SurgRE and the Friends & Family provider network. SurgRE is owned by MedMerge and structured as a captive insurance entity.
 
 ## What MedMerge Does
 
 - **Single Employer Platform**: MedMerge becomes employer of record. Employees are leased back to the practice. The practice keeps operational control. This unlocks self-funded benefits for practices of any size, starting at one employee.
-- **Self-Funded Healthcare Benefits**: Through SurgRE — a self-funded benefits program owned by its physician members and designed exclusively for healthcare professionals — member practices get collective purchasing power, claims data transparency, and independence from traditional fully-insured carriers (Blue Cross, United, Cigna, Aetna).
+- **Self-Funded Healthcare Benefits**: Through SurgRE — a self-funded benefits program designed exclusively for healthcare professionals — member practices get lower premiums, claims data transparency, Friends & Family network access, domestic network access, direct contracts, and independence from traditional fully-insured carriers (Blue Cross, United, Cigna, Aetna).
 - **Friends & Family Network**: When plan members receive care from another member practice, they pay the practice's actual cost of delivery — not the retail rate. A $350 consult that costs $150 to deliver is billed to the plan at $150. No copays, no deductibles, no coinsurance. These are not negotiated discounts; they are structural cost reductions. Every service rendered inside the network lowers overall plan expenses for all members. The network is live in Phoenix, Dallas, Manhattan (KS), and Tulsa.
 - **Payroll**: Tax filing, direct deposit, W-2/W-4, ACA compliance, garnishments, 401(k) tracking, workers' compensation, multi-state support, and general ledger mapping.
 - **Human Resources**: Applicant tracking, onboarding, benefits management, employee self-service, talent management, performance reviews, compliance (EEOC, OSHA, FMLA), and document management.
@@ -31,7 +31,7 @@ All three tiers include the single employer structure, self-funded healthcare be
 - Self-funded benefits accessible to practices starting at one employee.
 - Claims data transparency — practices see their own data.
 - Friends & Family network: care at cost, not retail. Structural savings, not negotiated discounts.
-- SurgRE: a self-funded benefits program with a healthcare-only membership, owned by its physician members.
+- SurgRE: a self-funded benefits program with a healthcare-only membership, owned by MedMerge.
 - Benefits, payroll, and HR on one integrated platform.
 
 ## Markets
