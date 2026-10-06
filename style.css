@@ -939,7 +939,10 @@ p.lead {
 }
 
 .team-grid-4 {
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 2rem;
 }
 
 .team-member img {
@@ -1474,8 +1477,8 @@ footer {
 
   .team-grid,
   .team-grid-4 {
-    grid-template-columns: 1fr;
-    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
   }
 
   p.lead {
