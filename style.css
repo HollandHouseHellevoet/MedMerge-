@@ -781,16 +781,9 @@ p.lead {
 
 .tier-table tfoot td {
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 2.5rem 1rem 1rem;
   border-top: 2px solid var(--border-light);
-}
-
-.tier-table tfoot td:first-child {
-  border-top: none;
-}
-
-.tier-table tfoot td:nth-child(3) {
-  background: var(--bg-light);
+  background: none;
 }
 
 /* ============================================
